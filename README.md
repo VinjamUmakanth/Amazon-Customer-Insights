@@ -1,17 +1,12 @@
-# Amazon Customer Behavior Analysis
-
-![Project Banner](project_banner.png) <!-- You can add a project banner image -->
+# Amazon Customer Insights
 
 ## 📋 Table of Contents
 - [Overview](#overview)
 - [Features](#features)
 - [Dataset](#dataset)
-- [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
 - [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## 🎯 Overview
 This data analytics project analyzes Amazon customer behavior through purchase patterns, review dynamics, and product performance. The project aims to enhance product recommendations and understand customer engagement by examining the relationship between buying patterns and review behaviors.
@@ -52,84 +47,147 @@ The analysis uses the following data:
 - Rating data
 - Customer interaction logs
 
-## 🛠️ Installation
+# 📊 Results
 
-1. Clone the repository
-```bash
-git clone https://github.com/yourusername/amazon-customer-insights.git
-cd amazon-customer-insights
-```
+### 1. High-Value Customer Analysis
+![Customer Growth Opportunities](./images/Customers_with_Product_Growth_Opportunities.png)
 
-2. Create a virtual environment
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+#### Revenue Opportunities
+- 📈 Targeted upselling and cross-selling
+- 🎯 Personalized product recommendations
+- ⚡ Higher chance of conversion success
 
-3. Install required packages
-```bash
-pip install -r requirements.txt
-```
+#### Marketing Benefits
+- 💰 More efficient marketing spend
+- 📱 Targeted campaigns
+- 📊 Better ROI on promotions
 
-## 💻 Usage
+#### Product Development
+- 🔍 Insight into most popular products
+- ⭐ Feature preferences
+- 💡 New product ideas
 
-1. Configure the settings
-```python
-# config.py
-CONFIG = {
-    'data_path': 'path/to/your/data',
-    'output_path': 'path/to/output'
-}
-```
+### 2. Product Rating Analysis
+![Rating Patterns](./images/Rating_scores_of_the_frequently_sold_products.png)
 
-2. Run the analysis
-```python
-python main.py
-```
+<table>
+  <tr>
+    <th>Category</th>
+    <th>Key Findings</th>
+  </tr>
+  <tr>
+    <td>Customer Satisfaction</td>
+    <td>
+      • Gauge overall customer experience<br>
+      • Identify products meeting expectations
+    </td>
+  </tr>
+  <tr>
+    <td>Marketing Strategies</td>
+    <td>
+      • Showcase highly-rated products<br>
+      • Leverage positive ratings in advertising
+    </td>
+  </tr>
+  <tr>
+    <td>Inventory Management</td>
+    <td>
+      • Guide restocking decisions<br>
+      • Balance popularity with satisfaction
+    </td>
+  </tr>
+</table>
 
-## 📁 Project Structure
-```
-amazon-customer-insights/
-│
-├── data/                  # Data files
-├── notebooks/            # Jupyter notebooks
-├── src/                  # Source code
-│   ├── __init__.py
-│   ├── analysis/        # Analysis modules
-│   ├── preprocessing/   # Data preprocessing
-│   └── visualization/   # Visualization scripts
-│
-├── tests/               # Test files
-├── requirements.txt     # Dependencies
-├── config.py           # Configuration
-├── main.py             # Main script
-└── README.md           # Project documentation
-```
+### 3. Customer Rating Pattern Comparison
+<div style="display: flex; justify-content: space-between;">
+    <img src="./images/Review_rating_by_frequent_customers.png" width="48%">
+    <img src="./images/Review_rating_by_Non_frequent_customers.png" width="48%">
+</div>
 
-## 📊 Results
+### Rating Distribution Analysis
 
-### Customer Segmentation
-```python
-customer_segments = {
-    'high_frequency': '25%',
-    'medium_frequency': '45%',
-    'low_frequency': '30%'
-}
-```
+#### 5-Star Ratings
+- Frequent Buyers: 61.6%
+- Non-Frequent Buyers: 63.8%
+- Both groups show strong preference for 5-star ratings
 
-### Review Patterns
-```python
-review_metrics = {
-    'frequent_buyers': {
-        'avg_reviews_per_month': 3.5,
-        'avg_review_length': '100+ words'
-    },
-    'non_frequent_buyers': {
-        'avg_reviews_per_month': 0.5,
-        'avg_review_length': '25-50 words'
-    }
-}
-```
+#### Rating Distribution
+- Frequent Buyers: Show consistent descending pattern (5→4→3→2→1)
+- Non-Frequent Buyers: More extreme ratings (high 5-star and 1-star)
+
+#### Customer Behavior
+- Frequent Buyers give more balanced ratings
+- Non-Frequent Buyers tend toward extreme feedback (either very high or very low)
+- This suggests frequent buyers provide more reliable and balanced feedback while maintaining overall positive sentiment.
+
+### 4. Review Length Analysis
+![Review Activity](./images/Customer_activeness_in_reviews.png)
+
+## Comment Length Analysis
+
+### Comment Length
+- Frequent buyers write significantly longer comments
+- Non-frequent buyers tend to leave brief feedback
+
+### Median Comparison
+- Frequent: 120 words
+- Non-frequent: 30 words
+  → Frequent buyers provide 4 times more detailed feedback on average
+
+### Range of Detail
+- Frequent: 100-word range (75 to 175)
+- Non-frequent: 75-word range (25 to 100)
+  → More consistent comment length from frequent buyers
+
+### Minimum Effort
+- Frequent buyers' shortest comments (75 words) are still longer than the median for non-frequent buyers (30 words)
+
+### Maximum Engagement
+- Some non-frequent buyers can be highly engaged (max 100 words)
+- Still falls short of the typical frequent buyer comment (median 120 words)
+
+### Conclusion
+Frequent customers consistently provide more detailed, comprehensive feedback compared to non-frequent customers, suggesting higher engagement and potentially more valuable insights for product improvement and customer understanding.
+
+### 5. Sentiment Analysis Results
+
+#### Positive Feedback Top Words
+| Word | Occurrences |
+|------|-------------|
+| Delicious | 37 |
+| Great | 29 |
+| Excellent | 9 |
+| Love it! | 8 |
+| The Best | 8 |
+
+#### Negative Feedback Top Words
+| Word | Occurrences |
+|------|-------------|
+| Not Good | 7 |
+| Awful | 6 |
+| Disappointing | 5 |
+| Disgusting | 3 |
+| Not impressed | 3 |
+
+### Key Findings:
+- Taste is Key:
+  - "Delicious" is the top positive word
+  - Product taste seems crucial for customers
+
+- Quality Matters:
+  - Words like "Great" and "Excellent" are common
+  - Indicates quality is important to customers
+
+- Some Strong Dislikes:
+  - Words like "Awful" and "Disgusting" appear
+  - Shows areas needing attention, though less frequent
+
+- Clear Feedback:
+  - Both positive and negative comments are direct
+  - Provides actionable insights for improvements
+
+#### Conclusion
+The analysis reveals a strong correlation between purchase frequency and review quality, with frequent customers providing more balanced and detailed feedback. This suggests a valuable relationship between customer loyalty and product insight generation.
 
 ## 🤝 Contributing
 1. Fork the repository
