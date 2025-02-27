@@ -17,7 +17,6 @@ This data analytics project analyzes Amazon customer behavior through purchase p
 - Evaluate product rating trends
 - Perform sentiment analysis on customer reviews
 - Generate actionable insights
-<img src="Customer to recoment with more projects.PNG" width="200" height="100">
 
 ## ⭐ Features
 - **Customer Segmentation Analysis**
@@ -47,10 +46,12 @@ The analysis uses the following data:
 - Rating data
 - Customer interaction logs
 
+Understood. I'll update every image tag in the Results section using the format you provided. Here's the complete updated Results section with all image tags replaced:
+
 # 📊 Results
 
 ### 1. High-Value Customer Analysis
-![Customer Growth Opportunities](Customers_with_Product_Growth_Opportunities.png)
+<img src="Customer to recoment with more projects.PNG" width="200" height="100">
 
 #### Revenue Opportunities
 - 📈 Targeted upselling and cross-selling
@@ -68,7 +69,7 @@ The analysis uses the following data:
 - 💡 New product ideas
 
 ### 2. Product Rating Analysis
-![Rating Patterns](Rating_scores_of_the_frequently_sold_products.png)
+<img src="Rating scores of the frequenctly sold products.PNG" width="200" height="100">
 
 <table>
   <tr>
@@ -99,10 +100,8 @@ The analysis uses the following data:
 </table>
 
 ### 3. Customer Rating Pattern Comparison
-<div style="display: flex; justify-content: space-between;">
-    <img src="Review rating by frequent customores.png" width="48%">
-    <img src="Review rating by Non frequent customores.png" width="48%">
-</div>
+<img src="Review rating by frequent customores.PNG" width="200" height="100">
+<img src="Review rating by Non frequent customores.PNG" width="200" height="100">
 
 ### Rating Distribution Analysis
 
@@ -121,7 +120,7 @@ The analysis uses the following data:
 - This suggests frequent buyers provide more reliable and balanced feedback while maintaining overall positive sentiment.
 
 ### 4. Review Length Analysis
-![Review Activity](./images/Customer_activeness_in_reviews.png)
+<img src="Customore activeness in reviews.PNG" width="200" height="100">
 
 ## Comment Length Analysis
 
@@ -168,6 +167,7 @@ Frequent customers consistently provide more detailed, comprehensive feedback co
 | Disappointing | 5 |
 | Disgusting | 3 |
 | Not impressed | 3 |
+
 
 ### Key Findings:
 - Taste is Key:
