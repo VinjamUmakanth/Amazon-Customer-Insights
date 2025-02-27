@@ -194,11 +194,10 @@ The analysis reveals a strong correlation between purchase frequency and review 
 
 ## 🙏 Acknowledgments
 - Amazon Web Services Documentation
-- Open-source NLP community
 
 ## 📧 Contact
-Vinjam Umakanth - umakanth.vinjam99@gmail.com
-Project Link: https://github.com/VinjamUmakanth/Amazon-Customer-Insights
+-Vinjam Umakanth - umakanth.vinjam99@gmail.com
+-Project Link: https://github.com/VinjamUmakanth/Amazon-Customer-Insights
 
 ---
 **Note:** This project is for analytical purposes and not officially affiliated with Amazon.
