@@ -51,7 +51,7 @@ Understood. I'll update every image tag in the Results section using the format 
 # 📊 Results
 
 ### 1. High-Value Customer Analysis
-<img src="Customer to recoment with more projects.PNG" width="200" height="100">
+<img src="Customer to recoment with more projects.PNG" width="400" height="200">
 
 #### Revenue Opportunities
 - 📈 Targeted upselling and cross-selling
@@ -69,7 +69,7 @@ Understood. I'll update every image tag in the Results section using the format 
 - 💡 New product ideas
 
 ### 2. Product Rating Analysis
-<img src="Rating scores of the frequenctly sold products.PNG" width="200" height="100">
+<img src="Rating scores of the frequenctly sold products.PNG" width="400" height="200">
 
 <table>
   <tr>
@@ -100,8 +100,10 @@ Understood. I'll update every image tag in the Results section using the format 
 </table>
 
 ### 3. Customer Rating Pattern Comparison
-<img src="Review rating by frequent customores.PNG" width="200" height="100">
-<img src="Review rating by Non frequent customores.PNG" width="200" height="100">
+<p align="center" style="display: flex; justify-content: center; gap: 20px;">
+    <img src="Review rating by frequent customores.PNG" width="400" height="200">
+    <img src="Review rating by Non frequent customores.PNG" width="400" height="200">
+</p>
 
 ### Rating Distribution Analysis
 
@@ -120,7 +122,7 @@ Understood. I'll update every image tag in the Results section using the format 
 - This suggests frequent buyers provide more reliable and balanced feedback while maintaining overall positive sentiment.
 
 ### 4. Review Length Analysis
-<img src="Customore activeness in reviews.PNG" width="200" height="100">
+<img src="Customore activeness in reviews.PNG" width="400" height="200">
 
 ## Comment Length Analysis
 
