@@ -50,7 +50,7 @@ The analysis uses the following data:
 # 📊 Results
 
 ### 1. High-Value Customer Analysis
-![Customer Growth Opportunities](./images/Customers_with_Product_Growth_Opportunities.png)
+![Customer Growth Opportunities](Customers_with_Product_Growth_Opportunities.png)
 
 #### Revenue Opportunities
 - 📈 Targeted upselling and cross-selling
@@ -68,7 +68,7 @@ The analysis uses the following data:
 - 💡 New product ideas
 
 ### 2. Product Rating Analysis
-![Rating Patterns](./images/Rating_scores_of_the_frequently_sold_products.png)
+![Rating Patterns](Rating_scores_of_the_frequently_sold_products.png)
 
 <table>
   <tr>
@@ -100,8 +100,8 @@ The analysis uses the following data:
 
 ### 3. Customer Rating Pattern Comparison
 <div style="display: flex; justify-content: space-between;">
-    <img src="./images/Review_rating_by_frequent_customers.png" width="48%">
-    <img src="./images/Review_rating_by_Non_frequent_customers.png" width="48%">
+    <img src="Review rating by frequent customores.png" width="48%">
+    <img src="Review rating by Non frequent customores.png" width="48%">
 </div>
 
 ### Rating Distribution Analysis
