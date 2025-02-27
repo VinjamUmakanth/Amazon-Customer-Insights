@@ -22,7 +22,7 @@ This data analytics project analyzes Amazon customer behavior through purchase p
 - Evaluate product rating trends
 - Perform sentiment analysis on customer reviews
 - Generate actionable insights
-
+![Image Name](./images/image.png)
 ## ⭐ Features
 - **Customer Segmentation Analysis**
   - Purchase frequency patterns
