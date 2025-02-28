@@ -44,8 +44,6 @@ The analysis uses the following data:
 - Rating data
 - Customer interaction logs
 
-Understood. I'll update every image tag in the Results section using the format you provided. Here's the complete updated Results section with all image tags replaced:
-
 # 📊 Results
 
 ### 1. High-Value Customer Analysis
